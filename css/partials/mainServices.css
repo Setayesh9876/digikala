@@ -1,0 +1,22 @@
+.main-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.main-services__service a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-services__service img {
+    width: 52px; height: 52px;
+}
+.main-services__service a p {
+    margin-top: 4px;
+    font-size: 11px;
+    line-height: 2.17;
+    color: #3f4064;
+}

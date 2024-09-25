@@ -1,0 +1,19 @@
+.some-ads {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.some-ads__ad {
+  width: 322px;
+  height: 241.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.some-ads__ad img {
+  height: 100%;
+  width: 100%;
+}

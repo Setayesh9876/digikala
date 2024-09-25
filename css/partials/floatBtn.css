@@ -1,0 +1,25 @@
+.float-btn {
+    position: fixed;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+  }
+  .online-support {
+    right: 50px; bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ef4056;
+    padding: 12px;
+  }
+  .spmrkt {
+    left: 16px; bottom: 70px;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    background-color: #029A49;
+  }

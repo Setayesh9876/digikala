@@ -1,0 +1,38 @@
+.filter {
+  padding: 16px 0;
+  width: 80%;
+  margin: auto;
+  @media only screen and (max-width: 390px) {
+    display: none;
+  }
+}
+.filter > h3 {
+  font-size: 2.1rem;
+  margin-bottom: 36px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.filter-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: 2rem;
+}
+
+.filter > .filter-container > .filter-item > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.filter-item > p {
+  text-align: center;
+  width: 100px;
+  font-size: 12px;
+  line-height: 2;
+}

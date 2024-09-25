@@ -1,0 +1,172 @@
+header{
+    width: 100%;
+    height: 170px;
+    box-shadow: 0 0 2px #2b2b2b;
+    .header__top{
+        width: 100%;
+        height:60px;
+       img{
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+       }
+    }
+    .header__center{
+        /* width: 100%; */
+        height: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 16px;
+        margin: 0 116px;
+        .header__center__logo{
+            width: 195px;
+            height: 30px;
+            height: inherit;
+            display:flex ;
+            justify-content:flex-end ;
+            align-items: center;
+            padding-left: 20px;
+            
+        }
+        .header__center__search{
+            /* width:75% ; */
+            height: inherit;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            margin-left: auto;
+            padding-right: 10px;
+            input[type=text]{
+                all: unset;
+                width: 600px;
+                height: 45px;
+                background-color: #F0F0F1;
+                border-radius: 7px;
+                padding-right: 8px;
+                margin-right: 8px;
+                font-size: 1.2rem;
+                &::placeholder {
+                    /* font-weight: bold; */
+                }
+            }
+        }
+        .header__center__login{
+            width:15%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            padding-right: 10px;
+            column-gap: 15px;
+        .header__center__login__link{
+            display:inline-block ;
+            width: 135px;
+            height: 40px;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color:#1b1b1b;
+            font-size: 12px;
+            font-weight: bolder !important;
+            column-gap: 5px;
+            span{
+                display:inline-block ;
+                width:2px ;
+                height:15px ;
+                background-color:#1b1b1b ;
+            }
+        }
+        .pipe{
+            display: inline-block;
+            width: 1px;
+            height: 25px;
+            background-color: lightgrey;
+        }
+        .header__center__login__car{
+            margin-top: 5px;
+        }
+        }
+    }
+    .header__menu {
+        /* width: 100%; */
+        height: 40px;
+        display: flex;
+        padding: 0 16px;
+        margin: 0 116px;
+        .header__menu__right{
+            width: 100%;
+            height: inherit;
+            display: flex;
+            /* padding-right: 60px; */
+            nav{
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 10px;
+                div{
+                 width: fit-content; 
+                 height: inherit;
+                 display: flex;
+                 align-items: center;
+                 a{
+                   display: block;
+                   width: fit-content;
+                   padding: 0 10px;
+                   height: inherit;
+                   display: flex; 
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: #2b2b2b ;
+                   column-gap: 5px;
+                   
+                 }
+                 span{
+                    display: inline-block;
+                    width: 1px;
+                    height: 15px;
+                    background-color: lightgray;
+                 }
+                }
+            }
+        }
+        .header__menu__city {
+            width: 15%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            padding-right: 15px;
+            div {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+
+            }
+        }
+    }
+}
+.active{
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+.navlinks {
+    position: relative;
+}
+.navlinks::after {
+    content: '';
+    background-color: crimson;
+    height: 2px; width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .2s;
+}
+.navlinks:hover::after {
+    width: 100%;
+    transition: .2s;
+}

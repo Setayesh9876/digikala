@@ -1,0 +1,41 @@
+.supermarkt-offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url("images/freshPattern.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 0;
+}
+
+.supermarkt-offer__percentage {
+  padding: 2px 10px;
+  background-color: #029a49;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 1.4rem;
+  /* font-weight: 700; */
+  line-height: 2.15;
+}
+
+.supermarkt-offer__btn {
+  all: unset;
+  color: #029a49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2.17;
+  gap: 20px;
+}
+
+.supermarkt-offer__off {
+  position: relative;
+  width: 58px;
+  margin: 0 10px;
+}
+.supermarkt-offer__off img {
+  width: 120%;
+  border-radius: 50%;
+}
